@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .search-button {
+    background: blue;
+  }
+}
+
+/* Desktop  */
+@media (min-width: 1024px) {
+  .search-button {
+    background: red;
+  }
+}
