@@ -131,3 +131,23 @@ placer_box6.appendChild(box6);
 placer.appendChild(placer_box6);
 
 // Skills end
+
+// ContactMe start
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Error! Name must be filled out");
+    return false;
+  }
+
+  let y = document.forms["myForm"]["femail"].value;
+  if (y == "") {
+    alert("Error! Email must be filled out");
+    return false;
+  }
+
+  alert("Email has been sent succesfully");
+}
+
+// ContactMe end

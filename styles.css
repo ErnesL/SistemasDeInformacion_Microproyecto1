@@ -9,8 +9,8 @@
 @media (min-width: 390px) {
   body {
     font-family: "Josefin Sans", sans-serif;
-    color: #71c9ce;
-    background-color: #cbf1f5;
+    color: #7e2081;
+    background-color: white;
     height: 100vh;
     /* display: flex; */
     justify-content: center;
@@ -20,7 +20,7 @@
   .main-title {
     font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
+    line-height: 100%;
     text-align: center;
     /* font-style: italic; */
     color: black;
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 15px 10px;
   }
 
@@ -57,7 +57,7 @@
   nav ul li a {
     transition: all 0.3 ease 0s;
     text-decoration: none;
-    color: #71c9ce;
+    color: #7e2081;
   }
 
   nav ul li a:hover {
@@ -72,7 +72,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  background-color: #71c9ce;
+  background-color: #fedeff;
 }
 
 /* Hide the images by default */
@@ -89,7 +89,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: fedeff;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -189,7 +189,7 @@ table th td,
 a {
   transition: all 0.3 ease 0s;
   text-decoration: none;
-  color: #71c9ce;
+  color: #7e2081;
 }
 
 table th td,
@@ -218,8 +218,10 @@ td {
 /* Skills start */
 /* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   background-color: #ddd; /* Grey background */
+  margin: auto;
+  border-radius: 30px;
 }
 
 .skills {
@@ -227,10 +229,11 @@ td {
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: black; /* White text color */
+  border-radius: 30px;
 }
 
 .Skills p {
-  padding: 3px;
+  padding: 6px;
   text-align: center;
   color: black;
 }
@@ -262,6 +265,60 @@ td {
 }
 
 /* Skills end */
+
+/* ContactMe start */
+.ContactMe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 3px;
+  outline: none;
+  border-radius: 10%;
+  background: #fedeff;
+}
+
+button {
+  padding: 15px;
+  background: #fedeff;
+  color: black;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+  width: 75px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+#s-navbar,
+ul,
+li,
+img {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+/* ContactMe end */
 
 /* Tablet */
 @media (min-width: 768px) {

@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1 class="main-title">Ernesto Lugo</h1>
-    <p class="main-subtitle">23 años - Caracas, Venezuela</p>
+    <p class="main-subtitle">23 years old - Caracas, Venezuela</p>
 
     <!-- Navbar -->
     <nav class="navbar">
@@ -112,13 +112,51 @@
         are moving to Europe with my girlfriend.
       </p>
     </div>
-    <!-- error -->
+    <!-- AboutMe end -->
 
     <!-- Skills -->
     <div id="Skills" class="Skills"></div>
 
     <!-- ContactMe -->
-    <div id="ContactMe"></div>
+    <div id="ContactMe" class="ContactMe"></div>
+    <form name="myForm" onsubmit="return validateForm()">
+      <h2 class="main-title">Contact me</h2>
+      <input type="text" name="fname" id="c-name" placeholder="Name: " />
+      <input type="email" name="femail" id="c-email" placeholder="Email: " />
+      <textarea
+        id="c-message"
+        rows="4"
+        placeholder="Write anything you like!"
+        name="ftextbox"
+      ></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <nav class="navbar" id="s-navbar">
+      <ul>
+        <li>
+          <a href="https://github.com/ErnesL"><img src="icon1.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ernestolugo99/"
+            ><img src="icon2.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="mailto:ernesto.lugo@correo.unimet.edu.ve"
+            ><img src="icon3.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5804122802419"
+            ><img src="icon4.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ContactMe end -->
+
     <script src="./index.js"></script>
   </body>
 </html>
