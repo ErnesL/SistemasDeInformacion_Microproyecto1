@@ -22,8 +22,9 @@
     font-size: 40px;
     line-height: 125%;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
     color: black;
+    padding: 15px;
   }
   .main-subtitle {
     font-weight: 500;
@@ -202,6 +203,65 @@ td {
   text-align: left;
 }
 /* Experience end */
+
+/* About Me Start */
+#selfie {
+  width: 100%;
+}
+
+#selfie-text {
+  padding: 20px;
+  text-align: justify;
+}
+/* About Me End */
+
+/* Skills start */
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.Skills p {
+  padding: 3px;
+  text-align: center;
+  color: black;
+}
+
+.english {
+  width: 100%;
+  background-color: red;
+}
+.python {
+  width: 70%;
+  background-color: rgb(255, 230, 0);
+}
+
+.java {
+  width: 50%;
+  background-color: rgb(51, 255, 0);
+}
+.html {
+  width: 30%;
+  background-color: #00fff2;
+}
+.css {
+  width: 20%;
+  background-color: #0400ff;
+}
+.js {
+  width: 15%;
+  background-color: #ff00ee;
+}
+
+/* Skills end */
 
 /* Tablet */
 @media (min-width: 768px) {
